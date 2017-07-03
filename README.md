@@ -1,2 +1,0 @@
-# min-chuck
-Min-Chuck
