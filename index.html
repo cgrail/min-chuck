@@ -16,8 +16,9 @@
     function f() {
         fetch('http://api.icndb.com/jokes/random')
             .then(r => r.json())
-            .then(r => el.innerHTML = '<h2>Joke #' + r.value.id + '</h2><p>' + r.value.joke + '</p>');
+            .then(r => el.innerHTML = `<h2>Joke #${r.value.id}</h2><p>${r.value.joke}</p>`);
     }
+
     f();
 </script>
 
